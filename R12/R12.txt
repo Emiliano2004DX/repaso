@@ -1,0 +1,10 @@
+Etapa: Compilación
+Qué corregir: Revisar la sintaxis o declaración antes de origen. Puede faltar ;, un tipo de dato o una llave.
+Etapa: Enlazado
+Qué corregir: Falta la implementación de Cuenta::depositar(double) o no se está compilando el .cpp donde está definida.
+Etapa: Compilación
+Qué corregir: Se está usando un std::string donde se necesita un int. Corregir el tipo o hacer la conversión correspondiente.
+Etapa: Compilación
+Qué corregir: Falta #include <vector> y usar std::vector.
+Etapa: Enlazado
+Qué corregir: doble(int) está definida más de una vez. Debe existir una sola definición de la función.
